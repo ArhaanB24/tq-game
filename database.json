@@ -1,0 +1,53 @@
+{
+  "Floor 8": {
+    "Additive Manufacturing Lab": [
+      "3_D Printing 2.jpg",
+      "3_D printing 4.JPG",
+      "3_D printing 5.JPG",
+      "3_D printing 6.JPG",
+      "3-D Printing 1.jpg",
+      "3-D Printing 3.jpg"
+    ],
+    "Sensor IoT Lab": [
+      "IoT lab 1.jpg",
+      "IoT Lab 2.jpg",
+      "IoT Lab 3.jpg"
+    ],
+    "Automation Lab": [
+      "Automation Lab.jpeg"
+    ],
+    "Hydraulics Lab": [
+      "20. Hydraulics Lab Wall mount"
+    ],
+    "AR VR Lab": [
+      "AR_VR Lab.jpg"
+    ],
+    "Balcony": [
+      "8th floor balcony.jpg"
+    ]
+  },
+
+  "Floor 7": {
+    "Library": [
+      "Library 1.jpg",
+      "Library 2.jpg",
+      "Library 3.jpg"
+    ]
+  },
+
+  "Floor 2": {
+    "E. TR 202": [
+      "BBA Library.jpg"
+    ]
+  },
+
+  "Floor 6": {
+    "Robotics Lab": [
+      "14.roboticArm.jpeg",
+      "14.Roboticarm2.jpeg"
+    ],
+    "Faculty Room 602": [
+      "Shanke sir office.jpeg"
+    ]
+  }
+}
