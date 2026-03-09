@@ -1,0 +1,102 @@
+[
+  {
+    "id": "additive-mfg-lab",
+    "name": "Additive Manufacturing Lab",
+    "floorNumber": 8,
+    "floorIdx": 9,
+    "gridArea": "aml",
+    "images": [
+      "3_D Printing 2.jpg",
+      "3_D printing 4.JPG",
+      "3_D printing 5.JPG",
+      "3_D printing 6.JPG",
+      "3-D Printing 1.jpg",
+      "3-D Printing 3.jpg"
+    ]
+  },
+  {
+    "id": "sensor-iot-lab",
+    "name": "Sensor IoT Lab",
+    "floorNumber": 8,
+    "floorIdx": 9,
+    "gridArea": "siot",
+    "images": [
+      "IoT lab 1.jpg",
+      "IoT Lab 2.jpg",
+      "IoT Lab 3.jpg"
+    ]
+  },
+  {
+    "id": "automation-lab",
+    "name": "Automation Lab",
+    "floorNumber": 8,
+    "floorIdx": 9,
+    "gridArea": "alab",
+    "images": [
+      "Automation Lab.jpeg"
+    ]
+  },
+  {
+    "id": "ar-vr-lab",
+    "name": "AR/VR Lab",
+    "floorNumber": 7,
+    "floorIdx": 8,
+    "gridArea": "arvr",
+    "images": [
+      "AR_VR Lab.jpg"
+    ]
+  },
+  {
+    "id": "na-area",
+    "name": "Balcony",
+    "floorNumber": 8,
+    "floorIdx": 9,
+    "gridArea": "na",
+    "images": [
+      "8th floor balcony.jpg"
+    ]
+  },
+  {
+    "id": "library",
+    "name": "Library",
+    "floorNumber": 7,
+    "floorIdx": 8,
+    "gridArea": "lib",
+    "images": [
+      "Library 1.jpg",
+      "Library 2.jpg",
+      "Library 3.jpg"
+    ]
+  },
+  {
+    "id": "tr202-bba-library",
+    "name": "E. TR 202",
+    "floorNumber": 2,
+    "floorIdx": 3,
+    "gridArea": "tr202",
+    "images": [
+      "BBA Library.jpg"
+    ]
+  },
+  {
+    "id": "robotics-lab",
+    "name": "Robotics Lab",
+    "floorNumber": 6,
+    "floorIdx": 7,
+    "gridArea": "rlab",
+    "images": [
+      "14.roboticArm.jpeg",
+      "14.Roboticarm2.jpeg"
+    ]
+  },
+  {
+    "id": "faculty-room-602",
+    "name": "Faculty Area 602",
+    "floorNumber": 6,
+    "floorIdx": 7,
+    "gridArea": "fa602",
+    "images": [
+      "Shanke sir office.jpeg"
+    ]
+  }
+]

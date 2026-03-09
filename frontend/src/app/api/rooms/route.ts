@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
 
-const ROOMS_FILE = path.join(process.cwd(), "..", "gameRooms.json");
-const IMAGES_DIR = path.join(process.cwd(), "..", "images");
+const ROOMS_FILE = path.join(process.cwd(), "gameRooms.json");
+const IMAGES_DIR = path.join(process.cwd(), "public", "images");
 
 interface StoredRoom {
   id: string;

@@ -20,7 +20,11 @@
     "floorNumber": 8,
     "floorIdx": 9,
     "gridArea": "siot",
-    "images": ["IoT lab 1.jpg", "IoT Lab 2.jpg", "IoT Lab 3.jpg"]
+    "images": [
+      "IoT lab 1.jpg",
+      "IoT Lab 2.jpg",
+      "IoT Lab 3.jpg"
+    ]
   },
   {
     "id": "automation-lab",
@@ -28,7 +32,9 @@
     "floorNumber": 8,
     "floorIdx": 9,
     "gridArea": "alab",
-    "images": ["Automation Lab.jpeg"]
+    "images": [
+      "Automation Lab.jpeg"
+    ]
   },
   {
     "id": "ar-vr-lab",
@@ -36,7 +42,9 @@
     "floorNumber": 7,
     "floorIdx": 8,
     "gridArea": "arvr",
-    "images": ["AR_VR Lab.jpg"]
+    "images": [
+      "AR_VR Lab.jpg"
+    ]
   },
   {
     "id": "na-area",
@@ -45,10 +53,7 @@
     "floorIdx": 9,
     "gridArea": "na",
     "images": [
-      "8th floor balcony.jpg",
-      "8th floor book waiting.jpg",
-      "8th floor waiting 2.jpg",
-      "8th floor waiting.jpg"
+      "8th floor balcony.jpg"
     ]
   },
   {
@@ -69,7 +74,9 @@
     "floorNumber": 2,
     "floorIdx": 3,
     "gridArea": "tr202",
-    "images": ["BBA Library.jpg"]
+    "images": [
+      "BBA Library.jpg"
+    ]
   },
   {
     "id": "robotics-lab",
@@ -77,7 +84,10 @@
     "floorNumber": 6,
     "floorIdx": 7,
     "gridArea": "rlab",
-    "images": ["14.roboticArm.jpeg", "14.Roboticarm2.jpeg"]
+    "images": [
+      "14.roboticArm.jpeg",
+      "14.Roboticarm2.jpeg"
+    ]
   },
   {
     "id": "faculty-room-602",
@@ -85,6 +95,8 @@
     "floorNumber": 6,
     "floorIdx": 7,
     "gridArea": "fa602",
-    "images": ["Shanke sir office.jpeg"]
+    "images": [
+      "Shanke sir office.jpeg"
+    ]
   }
 ]
