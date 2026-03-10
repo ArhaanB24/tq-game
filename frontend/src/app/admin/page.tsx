@@ -47,21 +47,21 @@ function LoginGate({ onLogin, error }: { onLogin: (u: string, p: string) => void
           placeholder="Username"
           value={user}
           onChange={(e) => setUser(e.target.value)}
-          className="w-full mb-3 bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2.5 text-sm text-zinc-200 focus:outline-none focus:ring-2 focus:ring-sky-500"
+          className="w-full mb-3 bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2.5 text-sm text-zinc-200 focus:outline-none focus:ring-2 focus:ring-orange-500"
         />
         <input
           type="password"
           placeholder="Password"
           value={pass}
           onChange={(e) => setPass(e.target.value)}
-          className="w-full mb-4 bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2.5 text-sm text-zinc-200 focus:outline-none focus:ring-2 focus:ring-sky-500"
+          className="w-full mb-4 bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2.5 text-sm text-zinc-200 focus:outline-none focus:ring-2 focus:ring-orange-500"
         />
         {error && (
           <p className="text-red-400 text-sm mb-3">Invalid credentials.</p>
         )}
         <button
           type="submit"
-          className="w-full py-2.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-sm transition-colors"
+          className="w-full py-2.5 rounded-lg bg-orange-600 hover:bg-orange-500 text-white font-semibold text-sm transition-colors"
         >
           Log in
         </button>
@@ -248,7 +248,7 @@ export default function AdminPage() {
           <div
             className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors mb-5 ${
               file
-                ? "border-sky-500/50 bg-sky-500/5"
+                ? "border-orange-500/50 bg-orange-500/5"
                 : "border-zinc-700 hover:border-zinc-500 bg-zinc-900/50"
             }`}
             onClick={() => fileInputRef.current?.click()}
@@ -300,7 +300,7 @@ export default function AdminPage() {
                 }}
                 className={`px-4 py-2 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
                   selectedFloor === null
-                    ? "bg-sky-600 text-white"
+                    ? "bg-orange-600 text-white"
                     : "bg-zinc-800 text-zinc-400 hover:bg-zinc-700 hover:text-zinc-200"
                 }`}
               >
@@ -316,7 +316,7 @@ export default function AdminPage() {
                   }}
                   className={`px-4 py-2 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
                     idx === selectedFloor
-                      ? "bg-sky-600 text-white"
+                      ? "bg-orange-600 text-white"
                       : "bg-zinc-800 text-zinc-400 hover:bg-zinc-700 hover:text-zinc-200"
                   }`}
                 >
@@ -333,7 +333,7 @@ export default function AdminPage() {
             <select
               value={selectedRoomValue}
               onChange={(e) => setSelectedRoomValue(e.target.value)}
-              className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2.5 text-sm text-zinc-200 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+              className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2.5 text-sm text-zinc-200 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
             >
               <option value="">Select a room...</option>
               {dropdownGroups.map((group) => {
@@ -380,7 +380,7 @@ export default function AdminPage() {
           <button
             type="submit"
             disabled={!file || !selectedRoomValue || uploading}
-            className="w-full py-3 rounded-lg bg-sky-600 hover:bg-sky-500 disabled:bg-zinc-700 disabled:text-zinc-500 text-white font-semibold text-sm transition-colors"
+            className="w-full py-3 rounded-lg bg-orange-600 hover:bg-orange-500 disabled:bg-zinc-700 disabled:text-zinc-500 text-white font-semibold text-sm transition-colors"
           >
             {uploading ? "Uploading..." : "Upload & Add Image"}
           </button>

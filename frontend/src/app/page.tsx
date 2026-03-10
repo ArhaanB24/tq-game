@@ -160,7 +160,7 @@ export default function Home() {
             {phase === "playing" && (
               <button
                 onClick={() => setMapOpen(true)}
-                className="px-6 py-2.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-sm font-semibold transition-colors shadow-lg"
+                className="px-6 py-2.5 rounded-lg bg-orange-600 hover:bg-orange-500 text-white text-sm font-semibold transition-colors shadow-lg"
               >
                 Make a Guess
               </button>
@@ -168,7 +168,7 @@ export default function Home() {
             {phase === "result" && (
               <button
                 onClick={handleNextRound}
-                className="px-6 py-2.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-sm font-semibold transition-colors"
+                className="px-6 py-2.5 rounded-lg bg-orange-600 hover:bg-orange-500 text-white text-sm font-semibold transition-colors"
               >
                 Next Round &rarr;
               </button>
@@ -298,7 +298,7 @@ function ResultPopup({
         </div>
         <button
           onClick={onNextRound}
-          className="shrink-0 px-5 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-sm font-semibold transition-colors"
+          className="shrink-0 px-5 py-2 rounded-lg bg-orange-600 hover:bg-orange-500 text-white text-sm font-semibold transition-colors"
         >
           Next Round &rarr;
         </button>

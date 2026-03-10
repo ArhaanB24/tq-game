@@ -30,7 +30,7 @@ function getRoomClasses(
   if (state === "dimmed") {
     switch (type) {
       case "floorLabel":
-        return `${base} min-h-[140px] bg-sky-500/60 border-sky-500/60 text-white/60 font-bold text-2xl cursor-default select-none`;
+        return `${base} min-h-[140px] bg-orange-500/60 border-orange-500/60 text-white/60 font-bold text-2xl cursor-default select-none`;
       case "label":
         return "flex items-center justify-center text-center text-zinc-500 text-[11px] tracking-wider cursor-default select-none py-1 font-medium";
       case "corridor":
@@ -42,14 +42,14 @@ function getRoomClasses(
 
   const selectedRing =
     state === "selected"
-      ? "ring-2 ring-sky-400 !border-sky-400 !bg-sky-500/15"
+      ? "ring-2 ring-orange-400 !border-orange-400 !bg-orange-500/15"
       : "";
 
   switch (type) {
     case "classroom":
       return `${base} min-h-[52px] border-zinc-600/80 bg-zinc-900 hover:bg-zinc-800 hover:border-zinc-500 text-zinc-300 cursor-pointer text-[11px] font-medium ${selectedRing}`;
     case "lab":
-      return `${base} min-h-[52px] border-blue-700/50 bg-slate-900 hover:bg-blue-900/60 hover:border-blue-500 text-blue-200 cursor-pointer text-[11px] font-medium ${selectedRing}`;
+      return `${base} min-h-[52px] border-orange-700/50 bg-zinc-900 hover:bg-orange-900/60 hover:border-orange-500 text-orange-200 cursor-pointer text-[11px] font-medium ${selectedRing}`;
     case "office":
       return `${base} min-h-[52px] border-amber-700/40 bg-zinc-900 hover:bg-amber-900/30 hover:border-amber-500 text-amber-200 cursor-pointer text-[11px] font-medium ${selectedRing}`;
     case "utility":
@@ -61,7 +61,7 @@ function getRoomClasses(
     case "stairs":
       return `${base} min-h-[36px] border-zinc-700/50 bg-zinc-900/70 text-zinc-500 cursor-default text-[10px]`;
     case "floorLabel":
-      return `${base} min-h-[140px] bg-sky-500 border-sky-500 text-white font-bold text-2xl cursor-default select-none`;
+      return `${base} min-h-[140px] bg-orange-500 border-orange-500 text-white font-bold text-2xl cursor-default select-none`;
     case "label":
       return "flex items-center justify-center text-center text-zinc-400 text-[11px] tracking-wider cursor-default select-none py-1 font-medium";
     case "corridor":
